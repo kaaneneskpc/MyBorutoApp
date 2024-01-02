@@ -61,6 +61,16 @@ fun ShimmerItem(alpha: Float) {
             Surface(
                 modifier = Modifier
                     .alpha(alpha = alpha)
+                    .fillMaxWidth(1.5f)
+                    .height(IMAGE_ICON_HEIGHT),
+                color = if (isSystemInDarkTheme())
+                    ShimmerDarkGray else ShimmerMediumGray,
+                shape = RoundedCornerShape(size = SMALL_PADDING)
+            ) {}
+            Spacer(modifier = Modifier.padding(all = SMALL_PADDING))
+            Surface(
+                modifier = Modifier
+                    .alpha(alpha = alpha)
                     .fillMaxWidth(0.5f)
                     .height(NAME_PLACEHOLDER_HEIGHT),
                 color = if (isSystemInDarkTheme())
