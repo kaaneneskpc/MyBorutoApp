@@ -1,7 +1,6 @@
 package com.example.borutoapp.ui.theme
 
 import androidx.compose.material.Colors
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 val Purple200 = Color(0xFFBB86FC)
@@ -21,34 +20,26 @@ val Colors.statusBarColor
     get() = if (isLight) Purple700 else Color.Black
 
 val Colors.welcomeScreenBackgroundColor
-    @Composable
     get() = if (isLight) Color.White else Color.Black
 
 val Colors.titleColor
-    @Composable
     get() = if (isLight) DarkGray else LightGray
 
 val Colors.descriptionColor
-    @Composable
     get() = if (isLight) DarkGray.copy(alpha = 0.5f)
     else LightGray.copy(alpha = 0.5f)
 
 val Colors.activeIndicatorColor
-    @Composable
     get() = if (isLight) Purple500 else Purple700
 
 val Colors.inactiveIndicatorColor
-    @Composable
     get() = if (isLight) LightGray else DarkGray
 
 val Colors.buttonBackgroundColor
-    @Composable
     get() = if (isLight) Purple500 else Purple700
 
 val Colors.topAppBarContentColor: Color
-    @Composable
     get() = if (isLight) Color.White else LightGray
 
 val Colors.topAppBarBackgroundColor: Color
-    @Composable
     get() = if (isLight) Purple500 else Color.Black

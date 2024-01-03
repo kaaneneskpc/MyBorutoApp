@@ -108,14 +108,14 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.2.2")
 
     // Horizontal Pager and Indicators - Accompanist
-    implementation ("com.google.accompanist:accompanist-pager:0.21.2-beta")
-    implementation ("com.google.accompanist:accompanist-pager-indicators:0.21.2-beta")
+    implementation ("com.google.accompanist:accompanist-pager:0.21.5-rc")
+    implementation ("com.google.accompanist:accompanist-pager-indicators:0.21.5-rc")
 
     // Swipe to Refresh - Accompanist
-    implementation ("com.google.accompanist:accompanist-swiperefresh:0.21.2-beta")
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.21.5-rc")
 
     // System UI Controller - Accompanist
-    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.21.2-beta")
+    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.21.5-rc")
 
     // Palette API
     implementation ("androidx.palette:palette-ktx:1.0.0")

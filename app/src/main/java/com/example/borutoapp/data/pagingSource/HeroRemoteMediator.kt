@@ -11,10 +11,9 @@ import com.example.borutoapp.domain.model.Hero
 import com.example.borutoapp.domain.model.HeroRemoteKeys
 import com.example.borutoapp.utils.extensions.isNotNull
 import com.example.borutoapp.utils.extensions.orDefault
-import javax.inject.Inject
 
 @ExperimentalPagingApi
-class HeroRemoteMediator @Inject constructor(
+class HeroRemoteMediator(
     private val borutoApi: BorutoApi,
     private val borutoDatabase: BorutoDatabase
 ) : RemoteMediator<Int, Hero>() {

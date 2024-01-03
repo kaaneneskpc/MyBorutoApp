@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
@@ -26,11 +27,15 @@ fun SearchScreen(
     val searchQuery by searchViewModel.searchQuery
     val heroes = searchViewModel.searchedHeroes.collectAsLazyPagingItems()
     val keyboardController = LocalSoftwareKeyboardController.current
-
     val systemUiController = rememberSystemUiController()
-    systemUiController.setStatusBarColor(
-        color = MaterialTheme.colors.statusBarColor
-    )
+    val systemBarColor = MaterialTheme.colors.statusBarColor
+
+    SideEffect {
+        systemUiController.setStatusBarColor(
+            color = systemBarColor
+        )
+    }
+
 
 
     Scaffold(

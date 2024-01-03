@@ -5,9 +5,8 @@ import androidx.paging.PagingState
 import com.example.borutoapp.data.remote.BorutoApi
 import com.example.borutoapp.domain.model.Hero
 import java.lang.Exception
-import javax.inject.Inject
 
-class SearchHeroesSource @Inject constructor(
+class SearchHeroesSource(
     private val borutoApi: BorutoApi,
     private val query: String
 ) : PagingSource<Int, Hero>() {
