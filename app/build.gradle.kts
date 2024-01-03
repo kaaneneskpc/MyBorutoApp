@@ -74,6 +74,9 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
 
+    //Splash API
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
     //Compose Navigation
     implementation("androidx.navigation:navigation-compose:2.7.6")
 
