@@ -22,7 +22,7 @@
 <li>  Splash API ( <a href="https://blair49.medium.com/creating-a-splash-screen-in-android-using-the-new-splash-screen-api-290870f9956c"> Source </a>) </li> 
 <li>  Modal Bottom Sheet (<a href="https://medium.com/data-science-community-srm/modal-bottom-sheet-in-kotlin-83c17a117503"> Source </a>) </li>
 <li>  Shimmer Effect (<a href="https://medium.com/mindorks/android-design-shimmer-effect-fa7f74c68a93"> Source </a>) </li>
-<li>  KTor for backend Server (<a href="https://ktor.io/"> Source </a>) </li>
+<li>  Ktor for backend Server (<a href="https://ktor.io/"> Source </a>) </li>
 
 </ul>
 
