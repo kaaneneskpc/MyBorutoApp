@@ -23,6 +23,8 @@
 <li>  Modal Bottom Sheet (<a href="https://medium.com/data-science-community-srm/modal-bottom-sheet-in-kotlin-83c17a117503"> Source </a>) </li>
 <li>  Shimmer Effect (<a href="https://medium.com/mindorks/android-design-shimmer-effect-fa7f74c68a93"> Source </a>) </li>
 <li>  Ktor for backend Server (<a href="https://ktor.io/"> Source </a>) </li>
+<li>  Using Kotlin DSL For Gradle (<a href="https://developer.android.com/build/migrate-to-kotlin-dsl"> Source </a>)</li>
+<li>  Using Kotlin Using Processing (<a href="https://developer.android.com/build/migrate-to-ksp"> Source </a>)</li>
 
 </ul>
 
